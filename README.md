@@ -57,6 +57,10 @@ choices are currently session-only; language, folder and reading progress persis
 
 ## Previews
 
+![Library with real EPUB covers](sharing/library/library-covers-warm.png)
+
+[Library previews: Warm, Dark and Czech](sharing/library/README.md).
+
 ![Nine languages and original-language books](sharing/languages/overview.png)
 
 [Language gallery and book credits](sharing/languages/README.md) ·
