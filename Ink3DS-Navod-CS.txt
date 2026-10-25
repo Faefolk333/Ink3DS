@@ -1,0 +1,67 @@
+Ink3DS 0.6.5 předběžné vydání — autor Faefolk333
+Pro New Nintendo 3DS / New 3DS XL / New 2DS XL
+
+INSTALACE
+CIA: na konzoli s CFW nainstalujte ink3ds.cia přes FBI.
+QR: FBI > Remote Install > Scan QR Code. Je potřeba připojení k internetu.
+Homebrew Launcher: soubory ink3ds.3dsx a ink3ds.smdh vložte do /3ds/Ink3DS/.
+
+KNIHY
+V Library vyberte složku a potvrďte Use this folder. Knihy zůstávají na SD.
+Zvolená složka se při startu prohledá, podsložky se neskenují rekurzivně.
+Podpora: textové EPUB bez DRM, TXT, HTML/HTM. Markdown jako prostý text.
+PNG/JPEG obrázky EPUB jsou přímo v textu jako bloky se zachovaným poměrem stran.
+Police používá deklarované obálky EPUB; kde chybí, zůstává karta s názvem.
+Obrázky: nejvýše 4096 px na rozměr a současně 4 194 304 pixelů celkem,
+4 MiB na soubor a 64 výskytů v knize. Dekodér má rozpočet 32 MiB.
+PDF, DRM, pevná sazba EPUB a plné CSS zatím nejsou podporovány.
+Limity: 256 položek složky a 4 MiB dekódovaného textu knihy.
+
+OVLÁDÁNÍ
+V knihovně směrová tlačítka a Circle Pad vybírají knihu, A ji otevře.
+Filtry formátů se ovládají dotykem. Naposledy čtené knihy jsou první.
+L/R i ZL/ZR otáčejí stránky. Nahoru/dolů nebo Circle Pad posouvá po řádku;
+při zapnutém Focus Line místo toho posouvá zvýrazněný řádek.
+Spodní displej nabízí nastavení vzhledu, písma, knihovnu a skok v knize.
+START ukončí aplikaci. HOME otevře systémové menu, kde lze software zavřít.
+SELECT nebo dotyk probudí spodní displej. Listování ani posun ho neprobouzí.
+Spodní podsvícení lze vypnout ručně nebo po nečinnosti.
+
+ČTENÍ
+Témata: Light, Warm, Paper, Dark, Red Night. V Type nastavíte font, velikost,
+řádkování a proklad. Osm fontů zahrnuje Droid Serif a Literata s češtinou.
+Fonty jsou přímo v aplikaci, nemusí se kopírovat zvlášť na SD.
+Bionic Reading zvýrazňuje začátky slov. Focus Line
+zvýrazňuje jeden řádek. Nabídka Go to umožňuje skok na kapitolu nebo stránku.
+Pro každou knihu je jedna přepínatelná záložka. Stejným ovladačem na označené
+stránce ji zase odstraníte. Výchozí jazyk je angličtina. Settings nabízí také
+češtinu, španělštinu, francouzštinu, polštinu, ruštinu, němčinu, italštinu
+a portugalštinu (nyní s brazilskými výrazy). Technická diagnostika
+při startu zůstává anglicky. CJK a sazba zprava doleva zatím nejsou podporovány.
+
+Jazyk v nastavení nyní vybírá i pravidla dělení slov a zalamování knihy.
+Všech devět jazyků má přibalené dělicí vzory. Zvolte jazyk čtené knihy;
+aplikace text nepřekládá ani automaticky nepřebírá jazyk z metadat EPUB.
+Po změně se kniha znovu rozloží při zachování přesné uložené pozice a záložky.
+Podporovány jsou podmíněné spojovníky, nezalomitelné mezery a ochrana
+interpunkčních skupin. Čeština váže jednopísmenná slova k následujícímu slovu;
+v češtině, polštině a portugalštině se na dalším řádku opakuje spojovník složenin.
+Příliš dlouhé nepodporované skupiny se stále mohou rozdělit bez spojovníku.
+Nejde o úplnou sazbu Unicode; podrobnosti jsou v TEXT-LAYOUT.md ve veřejné dokumentaci.
+
+UKLÁDÁNÍ
+Pozice a záložky se automaticky ukládají do /Ink3DS/progress/.
+Ukládá se i přesné místo uvnitř obrazového bloku. Staré textové pozice
+se načtou bez přesouvání souborů. Před zkoušením této verze data zálohujte.
+START navíc zkusí poslední uložení s omezenou čekací dobou.
+Při náhlém vypnutí lze ztratit změny od posledního dokončeného uložení.
+Jazyk a složka knih se ukládají v /Ink3DS/ do střídavých souborů preferences.
+Čtenářský vzhled je zatím nastavení jen pro aktuální spuštění.
+Po startu se zobrazí knihovna; otevřená kniha naváže na uložené místo.
+Přejmenování/přesun knihy změní její identifikaci pro ukládání pozice.
+
+BEZPEČNOST
+Aplikace nezapisuje do NAND ani systémových cest. Data před úpravami zálohujte.
+Před vypnutím napájení po změně chvíli počkejte na dokončení ukládání.
+Při hlášení chyby uveďte verzi aplikace, model konzole, firmware, formát knihy
+a přesný postup. Hostitelské náhledy nejsou screenshoty ze skutečné konzole.

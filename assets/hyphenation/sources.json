@@ -1,0 +1,83 @@
+[
+  {
+    "language": "en-us",
+    "file": "hyph-en-us.tex",
+    "left": 2,
+    "right": 3,
+    "license": "Kuiken permissive",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-en-us.tex",
+    "sha256": "f4ffcd96c5cbc886bdad23f95dcae8edc3cd3620eae62f7946eceda97c4e68f8"
+  },
+  {
+    "language": "cs",
+    "file": "csskhyphen.pat",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/ondrejsojka/cshyphen/blob/0ec0bdb720747738139eb240963d0d6993759031/csskhyphen.pat",
+    "sha256": "01cf88dfbb287bb591dcf5583a635e1223f98286e9ee631636c2601173af54da"
+  },
+  {
+    "language": "es",
+    "file": "hyph-es.tex",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-es.tex",
+    "sha256": "6a2e5f39a991a23d1cd8a23dbd0f6fe96a9f07561a6695f4f3320f47030e236c"
+  },
+  {
+    "language": "fr",
+    "file": "hyph-fr.tex",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-fr.tex",
+    "sha256": "526cad6fe8f52fcd3caa3fcaf667cb1740cfc14bca198680e00dc343a84594de"
+  },
+  {
+    "language": "pl",
+    "file": "hyph-pl.tex",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-pl.tex",
+    "sha256": "83ddbbd21bc06a44bc4f4a4c49c38782e809cff5f026b764c044daa29e818843"
+  },
+  {
+    "language": "ru",
+    "file": "hyph-ru.tex",
+    "left": 2,
+    "right": 2,
+    "license": "LPPL-1.2-or-later (1.3c chosen)",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ru.tex",
+    "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a"
+  },
+  {
+    "language": "de-1996",
+    "file": "hyph-de-1996.tex",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex",
+    "sha256": "374ad1ce3263f8a2791ec070ef9b516c532dae64456f3fb656e617e8ae53a9d3"
+  },
+  {
+    "language": "it",
+    "file": "hyph-it.tex",
+    "left": 2,
+    "right": 2,
+    "license": "MIT",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-it.tex",
+    "sha256": "6ce56ed6ed2ca7c0688838e366e6595e0429f984f4fc6e96ec045cebb1e76a47"
+  },
+  {
+    "language": "pt",
+    "file": "hyph-pt.tex",
+    "left": 2,
+    "right": 3,
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/hyphenation/tex-hyphen/blob/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-pt.tex",
+    "sha256": "c110a39e501db372d1d755e1c64464321a2efa7d8e9617f66001000389b941f2"
+  }
+]

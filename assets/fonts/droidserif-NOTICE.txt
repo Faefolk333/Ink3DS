@@ -1,0 +1,11 @@
+Droid Serif
+Designed by Steve Matteson, Ascender Corporation.
+Digitized data copyright © 2007, Google Corporation.
+Droid is a trademark of Google and may be registered in certain jurisdictions.
+Licensed under the Apache License, Version 2.0; see droidserif-LICENSE.txt.
+
+The upstream DroidSerif-Regular.ttf is included unchanged as
+droidserif-regular.ttf. Ink3DS converts and subsets that file with mkbcfnt
+to a 20-pixel BCFNT atlas (droidserif.bcfnt) using codepoints.txt.
+The converted/subset atlas is a modified-format derivative, not an upstream
+TTF release. The original font's license and notices remain applicable.

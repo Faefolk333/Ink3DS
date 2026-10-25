@@ -1,0 +1,4 @@
+* text=auto
+*.png binary
+assets/hyphenation/* -text
+assets/hyphenation/* linguist-vendored=true linguist-generated=true

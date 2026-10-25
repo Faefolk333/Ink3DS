@@ -1,0 +1,67 @@
+Ink3DS 0.6.5 preview — by Faefolk333
+New Nintendo 3DS / New 3DS XL / New 2DS XL
+
+INSTALL
+CIA: on a CFW console install ink3ds.cia with FBI. For QR installation:
+FBI > Remote Install > Scan QR Code. An Internet connection is required.
+Homebrew Launcher: put ink3ds.3dsx and ink3ds.smdh in /3ds/Ink3DS/.
+
+BOOKS
+Choose a folder in Library, then Use this folder. Keep books on the SD card.
+The chosen folder is scanned at startup; subfolders are not scanned recursively.
+Supported: DRM-free reflowable EPUB, TXT, HTML/HTM. Markdown is plain text.
+EPUB PNG/JPEG images appear in the text as proportional image blocks.
+The library displays declared EPUB covers, or filename cards if unavailable.
+Images: max 4096 pixels per dimension AND 4,194,304 total pixels,
+4 MiB per entry, 64 occurrences per book. Decoding also has a 32 MiB budget.
+PDF, DRM, fixed-layout EPUB and full web/CSS layout are unsupported.
+Limits: 256 directory
+entries, 4 MiB decoded book text.
+
+CONTROLS
+Library: directional controls select a book, A opens it. Format filters are
+touch-only. Most recently read books appear first.
+Reading: L/R and ZL/ZR turn pages. Up/down or Circle Pad scroll by line.
+With Focus Line enabled, up/down move the focused line.
+Touch the lower screen for Display, Type, Settings, Library and Go to.
+START exits. HOME opens HOME Menu; choose Close Software to close.
+SELECT or a touch wakes the lower screen. Page turning/scrolling does not.
+The lower backlight can switch off after inactivity or via the sleep control.
+
+READING
+Themes: Light, Warm, Paper, Dark, Red Night. Choose font, font size, line
+spacing and letter spacing in Type. Eight fonts include Droid Serif and
+Literata, embedded in the app with no font files needed on SD.
+Optional Bionic Reading emphasizes word
+beginnings; Focus Line highlights one reading line.
+
+Settings language also selects the book's hyphenation and wrapping profile.
+All nine languages have bundled patterns. Select the language of your book;
+this does not translate text or automatically use EPUB language metadata.
+Language changes reflow the book while retaining its exact saved byte position.
+Soft hyphens appear only when used; nonbreaking spaces and punctuation groups
+protect normal line breaks. Czech/Polish/Portuguese compound hyphens repeat
+on continuation lines. Oversized unsupported groups can still split without
+a hyphen. Full Unicode typography is not claimed; see TEXT-LAYOUT.md in the public documentation.
+Go to provides chapter/page navigation. Bookmark toggles one bookmark per
+book; press the same control on the bookmarked page to remove it.
+English is the default language; Czech, Spanish, French, Polish, Russian,
+German, Italian and Portuguese are available in Settings. Portuguese currently
+uses Brazilian terminology. Technical boot diagnostics stay English.
+Chinese/Japanese/Korean and right-to-left shaping are not supported yet.
+
+SAVING
+Per-book positions and bookmarks checkpoint automatically in /Ink3DS/progress/.
+Positions inside image blocks are preserved too. Old text-only positions load
+without migration. Back up SD data before installing this preview.
+START also attempts a bounded final save. Abrupt power loss may lose changes
+since the last completed checkpoint. The language and library folder persist
+in alternating preferences files under /Ink3DS/. Reading style choices are
+currently session-only. Startup shows the library; open your book to resume.
+Do not move/rename books if you want their saved path-based identity to match.
+
+SAFETY
+No NAND or system paths are written. Back up app data before changing it.
+If a write is pending, leave the app running briefly before turning power off.
+For a problem report include app version, console model, firmware, file format
+and the exact sequence of actions. Host previews are not device screenshots.
